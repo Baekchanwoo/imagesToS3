@@ -2,6 +2,6 @@ version: '3'
 
 services:
   image-server:
-    image: 'bcw043785/images-server'
+    image: 'bcw043785/django'
     ports:
-      - 8000:8000
+      - "8000:8000"
