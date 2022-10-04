@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  image-server:
+    image: 'bcw043785/images-server'
+    ports:
+      - 8000:8000
